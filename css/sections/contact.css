@@ -48,13 +48,6 @@
   }
 }
 
-.contact__links {
-  display: flex;
-  justify-content: space-between;
-  width: 10.5rem;
-  margin-top: 90%;
-}
-
 .contact__form {
   width: 80%;
   padding: 3rem 1.25rem;
@@ -230,10 +223,6 @@
   .contact__data {
     width: 100%;
     padding: 2rem;
-  }
-
-  .contact__links {
-    margin-top: 2rem;
   }
 
   .contact__form {
