@@ -90,3 +90,9 @@
   color: var(--grey-dark);
   line-height: 1.6;
 }
+
+@media (max-width: 768px) {
+  .faq__title {
+    font-size: 1.5rem;
+  }
+}

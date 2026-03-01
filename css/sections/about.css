@@ -45,3 +45,35 @@
     text-decoration: underline;
   }
 }
+
+@media (max-width: 1024px) {
+  .about {
+    flex-direction: column;
+  }
+
+  .about__card {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .about {
+    flex-direction: column;
+    padding: 3rem 0;
+  }
+
+  .about__card {
+    max-width: 100%;
+    flex-direction: column;
+  }
+
+  .about__img__container {
+    width: 100%;
+    height: auto;
+  }
+
+  .about__img {
+    width: 100%;
+    height: auto;
+  }
+}

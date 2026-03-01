@@ -6,4 +6,14 @@ body {
 .wrapper {
   max-width: 75rem;
   margin: 0 auto;
+
+  @media (max-width: 1220px) {
+    max-width: 95%;
+  }
+}
+
+@media (max-width: 768px) {
+  .mobile-only {
+    display: block;
+  }
 }
